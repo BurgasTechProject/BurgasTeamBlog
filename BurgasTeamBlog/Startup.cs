@@ -9,6 +9,7 @@ namespace BurgasTeamBlog
         public void Configuration(IAppBuilder app)
         {
             ConfigureAuth(app);
+            //comentar
         }
     }
 }
