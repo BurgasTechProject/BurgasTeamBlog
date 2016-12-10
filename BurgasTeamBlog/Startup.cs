@@ -11,6 +11,7 @@ namespace BurgasTeamBlog
             ConfigureAuth(app);
             //comentar
             //comentarnewmariela
+            //treticomentarmariela
         }
     }
 }
