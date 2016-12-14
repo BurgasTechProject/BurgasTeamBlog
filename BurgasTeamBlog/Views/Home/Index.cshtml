@@ -1,13 +1,14 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Сайт за несемейни";
 }
 
 <div>
-    <h1 class=" col-sm-offset-3">Партита за запознанства</h1>
-    <img class=" col-sm-offset-2" style="height: 10%; width: 65%" src="@Url.Content("~/Content/Images/Party.jpg")" />
+    <h1 class="col-sm-offset-3">Партита за запознанства</h1>
+    <img class="col-sm-offset-2" style="height: 10%; width: 65%" src="@Url.Content("~/Content/Images/Party.jpg")" alt="" />
 </div>
    
-<div class=" col-sm-offset-5">    
-    <p><a class="btn btn-primary btn-lg" href="~/Home/_Introduction.cshtml">Научете повече &raquo;</a></p>
+<div>
+    <ul>
+        <li class="btn btn-group-justified btn-lg">@Html.ActionLink("Научете повече","NewParty", "Home", null, new { @class = "page-scroll" })</li>
+    </ul>
 </div>
-

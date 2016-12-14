@@ -12,6 +12,10 @@ namespace BurgasTeamBlog.Controllers
         {
             return View();
         }
+        public ActionResult NewParty()
+        {
+            return View();
+        }
 
         public ActionResult About()
         {

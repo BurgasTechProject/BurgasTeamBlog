@@ -206,6 +206,7 @@
     <Content Include="Content\Images\Admin\Mariela.jpg" />
     <Content Include="Content\Images\Admin\Niki.jpg" />
     <Content Include="Content\Images\Admin\Valeri.jpg" />
+    <Content Include="Content\Images\NewParty.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -263,7 +264,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Home\Introduction.cshtml" />
+    <Content Include="Views\Home\NewParty.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
