@@ -31,9 +31,11 @@
         </div>
     <div class="container body-content">
         @RenderBody()
-        <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - BurgasTeamProject</p>
+            <div class="row">
+                <p class="col-sm-offset-5">&copy; @DateTime.Now.Year - BurgasTeamProject</p>
+            </div>
+           
         </footer>
     </div>
     @Scripts.Render("~/bundles/jquery")
