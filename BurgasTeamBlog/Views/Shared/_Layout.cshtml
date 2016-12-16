@@ -9,7 +9,7 @@
 
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -21,9 +21,9 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Предстоящо парти", "Party", "Home")</li>
-                    <li>@Html.ActionLink("Партита", "About", "Patryes")</li>
-                    <li>@Html.ActionLink("Контакти", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Предстоящо парти", "Party", "Home", new { area = "" }, new { @class = "navbar-brand" })</li>
+                    <li>@Html.ActionLink("Партита", "About", "Patryes", new { area = "" }, new { @class = "navbar-brand" })</li>
+                    <li>@Html.ActionLink("Контакти", "Contact", "Home", new { area = "" }, new { @class = "navbar-brand" })</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
                 </div>
@@ -33,7 +33,7 @@
         @RenderBody()
         <footer>
             <div class="row">
-                <p class="col-sm-offset-5">&copy; @DateTime.Now.Year - BurgasTeamProject</p>
+                <p class="col-sm-offset-5">&copy; @DateTime.Now.Year - BurgasTeamBlog</p>
             </div>
            
         </footer>
